@@ -1,0 +1,23 @@
+{
+  "skill_name": "git-push-feature",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "/git-push-feature add user authentication module",
+      "expected_output": "Skill stages changes, pulls latest, creates a commit with message like 'feat: add user authentication module' or similar, pushes to remote, and reports success.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "/git-push-feature fix typo in README",
+      "expected_output": "Skill stages changes, pulls latest, creates a commit with message like 'fix: fix typo in README' or similar, pushes to remote, and reports success.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "/git-push-feature update dependencies",
+      "expected_output": "Skill stages changes, pulls latest, creates a commit with message like 'chore: update dependencies' or similar, pushes to remote, and reports success.",
+      "files": []
+    }
+  ]
+}
